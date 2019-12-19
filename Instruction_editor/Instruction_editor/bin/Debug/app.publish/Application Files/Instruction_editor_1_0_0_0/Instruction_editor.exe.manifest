@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Instruction_editor.exe" version="1.0.0.0" publicKeyToken="ad89022ca7ed7b5e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Instruction_editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Instruction_editor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+         如需變更 Windows 使用者帳戶控制層級，
+         請以下列其中一個項目取代 requestedExecutionLevel 節點。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        如需利用回溯相容性的檔案及登錄模擬，
+        請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Instruction_editor.exe" size="22952">
+      <assemblyIdentity name="Instruction_editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BVNklmZ4Egwd768XyeIrS2pfV1mPpZgOYEwqJvtf7a0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Instruction_editor.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BEAR-NB\bear" issuerKeyHash="6408b0d93061ad40249b34e32ca1875f5cc4e091" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+ICYUHaCWl9Me+STyYUZxsMzk3l48Nhgg63UAdK/2sI=</DigestValue></Reference></SignedInfo><SignatureValue>aOsfOGmwhc7eql2mokkdkLi428J3Sj0IDWXngHn3Cl5m9ECHEZqkTNczKrZGZQJYRUAR/Vcd7bVx6YvGWVCdbdpG5P4+EDcdGGMdLGwYCwY/Ddny9WqWEiNtDZFQ1BgeIwAbnj/N8YATK6H19Za3a0/T3FGj1AJa+w/LbT875EA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zg2gBccJk0/aN+03zboEoJX0vCeaDk/PMzvUc5zZXnT/5aiGQwb7YjrCoUZCniXP1lCr8q6ktIg8F863E+WcssuURrpdwb0cw99xTbtgdPQklIcI9sTPizVUUgEgxQlrBCd6d3BXqJ4garyug0juz/sts5bvEzRn6gXErN9p7UU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c2dabfd201d4ad8360d8f078799333c3c61985c993e47b4c5f5a8276509880f8" Description="" Url=""><as:assemblyIdentity name="Instruction_editor.exe" version="1.0.0.0" publicKeyToken="ad89022ca7ed7b5e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BEAR-NB\bear</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qaVaIt/8pIC5bQbsPZLG1epl8TlNl3s2EEWvNWMqIwU=</DigestValue></Reference></SignedInfo><SignatureValue>BNgGUm20OnvBBXKgztn4NZ0VEwjpRGUpgErFHU8uVEFnSv7RTVN56QNE+c0rp5lk7RWVrdc9YLVmQTvDr3uW11mm6KDWdKaEghK5hXe0JymMiHz/StlH7j9VeyI+8iDHo6WnNbexfj+m1ooQDADQQWTaiUFv1FBSkvGxr7Uhqx4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zg2gBccJk0/aN+03zboEoJX0vCeaDk/PMzvUc5zZXnT/5aiGQwb7YjrCoUZCniXP1lCr8q6ktIg8F863E+WcssuURrpdwb0cw99xTbtgdPQklIcI9sTPizVUUgEgxQlrBCd6d3BXqJ4garyug0juz/sts5bvEzRn6gXErN9p7UU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQPPok6DBfD79PBnFC/yK99zANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQgBFAEEAUgAtAE4AQgBcAGIAZQBhAHIwHhcNMTkxMjE5MTg1MzM3WhcNMjAxMjE5MDA1MzM3WjAjMSEwHwYDVQQDHhgAQgBFAEEAUgAtAE4AQgBcAGIAZQBhAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM4NoAXHCZNP2jftN826BKCV9Lwnmg5PzzM71HOc2V50/+WohkMG+2I6wqFGQp4lz9ZQq/KupLSIPBfOtxPlnLLLlEa6XcG9HMPfcU27YHT0JJSHCPbEz4s1VFIBIMUJawQnendwV6ieIGq8roNI7s/7LbOW7xM0Z+oFxKzfae1FAgMBAAEwDQYJKoZIhvcNAQELBQADgYEALpqmZ9iTbeZjXMm1YPQWghl7rRRlz8+3cEtnr2EMG6LAc64cqpCp5WG9MiA6K+xIzWRPU+kuGwVSKQYPBnzMvOxs/NjvNfkUBJGVMe1SwvdB5HUja781bQSkvynBK2kviRC9NV7qOw5SSP+toGmr/OJ8KyB8nyR2BvH4BLkvrVg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

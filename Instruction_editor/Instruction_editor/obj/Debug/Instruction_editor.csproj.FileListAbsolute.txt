@@ -1,0 +1,14 @@
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\bin\Debug\Instruction_editor.exe.config
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\bin\Debug\Instruction_editor.exe
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\bin\Debug\Instruction_editor.pdb
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.csprojAssemblyReference.cache
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.Form1.resources
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.Properties.Resources.resources
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.csproj.GenerateResource.cache
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.csproj.CoreCompileInputs.cache
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.exe
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.pdb
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\bin\Debug\Instruction_editor.exe.manifest
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\bin\Debug\Instruction_editor.application
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.exe.manifest
+C:\Users\bear\Desktop\root\Instruction_editor\Instruction_editor\Instruction_editor\obj\Debug\Instruction_editor.application
